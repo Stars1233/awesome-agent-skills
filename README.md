@@ -189,7 +189,7 @@ Official AI agent skills from the Hugging Face team for ML workflows.
 <details>
 <summary><h3 style="display:inline">Skills by Stripe Team</h3></summary>
 
-- **[/-best-practices](https://github.com//ai/tree/main/skills/stripe-best-practices)** - Best practices for building Stripe integrations
+- **[stripe/stripe-best-practices](https://github.com/stripe/ai/tree/main/skills/stripe-best-practices)** - Best practices for building Stripe integrations
 - **[stripe/upgrade-stripe](https://github.com/stripe/ai/tree/main/skills/upgrade-stripe)** - Upgrade Stripe SDK and API versions
 
 </details>
