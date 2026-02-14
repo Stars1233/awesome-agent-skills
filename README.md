@@ -22,7 +22,7 @@
 </a>
 
 [![AI Agent Papers](https://img.shields.io/badge/AI%20Agent-Research%20Papers-b31b1b)](https://github.com/VoltAgent/awesome-ai-agent-papers)
-![Skills Count](https://img.shields.io/badge/Skills-369+-blue?style=flat-square)
+![Skills Count](https://img.shields.io/badge/Skills-370+-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=flat-square)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
 [![GitHub forks](https://img.shields.io/github/forks/VoltAgent/awesome-agent-skills?style=social)](https://github.com/VoltAgent/awesome-agent-skills/network/members)
@@ -700,6 +700,7 @@ Official curated skills from OpenAI's skills repository.
 - **[SHADOWPR0/beautiful_prose](https://github.com/SHADOWPR0/beautiful_prose)** - Hard-edged writing style contract for timeless, forceful English prose without AI tics
 - **[SeanZoR/claude-speed-reader](https://github.com/SeanZoR/claude-speed-reader)** -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting
 - **[Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** -Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
+- **[blader/humanizer](https://github.com/blader/humanizer)** - Remove signs of AI-generated writing from text, making it sound more natural and human
 
 </details>
 
