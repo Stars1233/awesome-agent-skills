@@ -429,27 +429,6 @@ Domain-specific knowledge for Azure SDK and Foundry development.
 </details>
 
 <details>
-<summary><h3 style="display:inline">Skills by Neon Team</h3></summary>
-
-- **[neondatabase/using-neon](https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres)** - Best practices for Neon Serverless Postgres
-
-</details>
-
-<details>
-<summary><h3 style="display:inline">Skill by Cloudflare Engineer</h3></summary>
-
-- **[dmmulroy/cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill/tree/main/skills/cloudflare)** - Cloudflare platform reference for Workers, Pages, storage, AI, and networking
-
-</details>
-
-<details>
-<summary><h3 style="display:inline">Skill by ClickHouse</h3></summary>
-
-- **[ClickHouse/agent-skills](https://github.com/ClickHouse/agent-skills)** - The official Agent Skills for [ClickHouse](https://clickhouse.com/). These skills help LLMs and agents to adopt best practices when working with ClickHouse.
-
-</details>
-
-<details>
 <summary><h3 style="display:inline">Skills by fal.ai Team</h3></summary>
 
 - **[fal-ai-community/fal-audio](https://github.com/fal-ai-community/skills/blob/main/skills/claude.ai/fal-audio/SKILL.md)** - Text-to-speech and speech-to-text using fal.ai audio models
@@ -477,13 +456,6 @@ Domain-specific knowledge for Azure SDK and Foundry development.
 - **[sanity-io/content-modeling-best-practices](https://github.com/sanity-io/agent-toolkit/tree/main/skills/content-modeling-best-practices)** - Guidelines for designing scalable content models in Sanity
 - **[sanity-io/seo-aeo-best-practices](https://github.com/sanity-io/agent-toolkit/tree/main/skills/seo-aeo-best-practices)** - SEO and answer engine optimization patterns for content sites
 - **[sanity-io/content-experimentation-best-practices](https://github.com/sanity-io/agent-toolkit/tree/main/skills/content-experimentation-best-practices)** - Content A/B testing and experimentation workflows
-
-</details>
-
-<details>
-<summary><h3 style="display:inline">Skills by Remotion Team</h3></summary>
-
-- **[remotion-dev/remotion](https://github.com/remotion-dev/skills/tree/main/skills/remotion)** - Programmatic video creation with React
 
 </details>
 
@@ -564,19 +536,17 @@ Official curated skills from OpenAI's skills repository.
 
 </details>
 
-<details>
-<summary><h3 style="display:inline">Skills by Replicate</h3></summary>
+**Skills by Neon** - **[neondatabase/using-neon](https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres)** - Best practices for Neon Serverless Postgres
 
-- **[replicate/replicate](https://github.com/replicate/skills/tree/main/skills/replicate)** - Discover, compare, and run AI models using Replicate's API
+**Skill by Cloudflare Engineer** - **[dmmulroy/cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill/tree/main/skills/cloudflare)** - Cloudflare platform reference for Workers, Pages, storage, AI, and networking
 
-</details>
+**Skill by ClickHouse** - **[ClickHouse/agent-skills](https://github.com/ClickHouse/agent-skills)** - The official Agent Skills for [ClickHouse](https://clickhouse.com/). These skills help LLMs and agents to adopt best practices when working with ClickHouse.
 
-<details>
-<summary><h3 style="display:inline">Skills by Typefully</h3></summary>
+**Skills by Remotion** - **[remotion-dev/remotion](https://github.com/remotion-dev/skills/tree/main/skills/remotion)** - Programmatic video creation with React
 
-- **[typefully/typefully](https://github.com/typefully/agent-skills/tree/main/skills/typefully)** - Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon
+**Skills by Replicate** - **[replicate/replicate](https://github.com/replicate/skills/tree/main/skills/replicate)** - Discover, compare, and run AI models using Replicate's API
 
-</details>
+**Skills by Typefully** - **[typefully/typefully](https://github.com/typefully/agent-skills/tree/main/skills/typefully)** - Create, schedule, and publish social media content across X, LinkedIn, Threads, Bluesky, and Mastodon
 
 ### Community Skills
 
