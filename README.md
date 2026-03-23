@@ -17,7 +17,7 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Skills Count](https://img.shields.io/badge/Skills-549+-blue?style=flat-square)
+![Skills Count](https://img.shields.io/badge/Skills-680+-blue?style=flat-square)
 ![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-agent-skills?label=Last%20update&style=flat-square)
 <a href="https://github.com/VoltAgent/voltagent">
   <img alt="VoltAgent" src="https://cdn.voltagent.dev/website/logo/logo-2-svg.svg" height="20" />
@@ -85,6 +85,7 @@ Agent skills can include prompt injections, tool poisoning, hidden malware paylo
 | [Skills by Microsoft](#skills-by-microsoft) | [Skills by fal.ai](#skills-by-falai-team) | [Skills by WordPress](#skills-by-wordpress-development-team) |
 | [Skills by Transloadit](#skills-by-transloadit-team) | [Skills by OpenAI](#skills-by-openai) | [Marketing Skills by Corey Haines](#marketing-skills-by-corey-haines) |
 | [Skills by Binance](#skills-by-binance) | [Product Manager Skills by Dean Peters](#product-manager-skills-by-dean-peters) | [Product Management Skills by Paweł Huryn](#product-management-skills-by-pawel-huryn) |
+| [Skills by MiniMax](#skills-by-minimax-team) | [Skills by DuckDB](#skills-by-duckdb) | [Skills by GSAP](#skills-by-gsap-greensock) |
 | [Community Skills](#community-skills) | [Skill Quality Standards](#skill-quality-standards) | |
 
 
@@ -137,7 +138,10 @@ Official skills by VoltAgent for building AI agents with the VoltAgent TypeScrip
 - **[supabase/postgres-best-practices](https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices)** - PostgreSQL best practices for Supabase
 
 ### Skills by Google Gemini
-- **[google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)** - A library of skills for the Gemini API, SDK and model interactions.
+- **[google-gemini/gemini-api-dev](https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-api-dev)** - Best practices for developing Gemini-powered apps using the Gemini API
+- **[google-gemini/vertex-ai-api-dev](https://github.com/google-gemini/gemini-skills/tree/main/skills/vertex-ai-api-dev)** - Developing Gemini-powered apps on Google Cloud Vertex AI using the Gen AI SDK
+- **[google-gemini/gemini-live-api-dev](https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-live-api-dev)** - Building real-time bidirectional streaming apps with the Gemini Live API
+- **[google-gemini/gemini-interactions-api](https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-interactions-api)** - Building apps with the Gemini Interactions API for text, chat, streaming, and image generation
 
 ### Skills by Stripe Team
 - **[stripe/stripe-best-practices](https://github.com/stripe/ai/tree/main/skills/stripe-best-practices)** - Best practices for building Stripe integrations
@@ -148,19 +152,20 @@ Official skills by VoltAgent for building AI agents with the VoltAgent TypeScrip
 - **[callstackincubator/github](https://github.com/callstackincubator/agent-skills/tree/main/skills/github)** - GitHub workflow patterns for PRs, code review, branching
 - **[callstackincubator/upgrading-react-native](https://github.com/callstackincubator/agent-skills/tree/main/skills/upgrading-react-native)** - React Native upgrade workflow: templates, dependencies, and common pitfalls
 
-### Skills by Expo Team
-Official AI agent skills from the Expo team for building, deploying, and debugging Expo apps.
-- **[expo/expo-app-design](https://github.com/expo/skills/tree/main/plugins/expo-app-design)** - Design and build Expo applications
-- **[expo/expo-deployment](https://github.com/expo/skills/tree/main/plugins/expo-deployment)** - Deploy Expo apps to production
-- **[expo/upgrading-expo](https://github.com/expo/skills/tree/main/plugins/upgrading-expo)** - Upgrade Expo SDK versions
-
 ### Skills by Better Auth Team
 - **[better-auth/best-practices](https://github.com/better-auth/skills/tree/main/better-auth/best-practices)** - Best practices for Better Auth integration
-- **[better-auth/commands](https://github.com/better-auth/skills/tree/main/better-auth/commands)** - Better Auth CLI commands
+- **[better-auth/explain-error](https://github.com/better-auth/skills/blob/main/better-auth/commands/explain-error.md)** - Explain Better Auth error messages
+- **[better-auth/providers](https://github.com/better-auth/skills/blob/main/better-auth/commands/providers.md)** - Better Auth authentication providers
 - **[better-auth/create-auth](https://github.com/better-auth/skills/tree/main/better-auth/create-auth)** - Create authentication setup with Better Auth
+- **[better-auth/emailAndPassword](https://github.com/better-auth/skills/tree/main/better-auth/emailAndPassword)** - Email and password authentication with Better Auth
+- **[better-auth/organization](https://github.com/better-auth/skills/tree/main/better-auth/organization)** - Organization management with Better Auth
+- **[better-auth/twoFactor](https://github.com/better-auth/skills/tree/main/better-auth/twoFactor)** - Two-factor authentication with Better Auth
 
 ### Skills by Tinybird Team
 - **[tinybirdco/tinybird-best-practices](https://github.com/tinybirdco/tinybird-agent-skills/tree/main/skills/tinybird-best-practices)** - Tinybird project guidelines for datasources, pipes, endpoints, and SQL
+- **[tinybirdco/tinybird-cli-guidelines](https://github.com/tinybirdco/tinybird-agent-skills/tree/main/skills/tinybird-cli-guidelines)** - Tinybird CLI usage guidelines and commands
+- **[tinybirdco/tinybird-python-sdk-guidelines](https://github.com/tinybirdco/tinybird-agent-skills/tree/main/skills/tinybird-python-sdk-guidelines)** - Tinybird Python SDK usage guidelines
+- **[tinybirdco/tinybird-typescript-sdk-guidelines](https://github.com/tinybirdco/tinybird-agent-skills/tree/main/skills/tinybird-typescript-sdk-guidelines)** - Tinybird TypeScript SDK usage guidelines
 
 ### Skills by HashiCorp Team for Terraform
 - **[hashicorp/terraform-code-generation](https://github.com/hashicorp/agent-skills/tree/main/terraform/code-generation)** - Generate and validate Terraform HCL code
@@ -175,13 +180,19 @@ Official AI agent skills from the Expo team for building, deploying, and debuggi
 
 ### Skills by Firecrawl Team
 - **[firecrawl/firecrawl-cli](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-cli)** - Scrape, crawl, search, and map the web via CLI
-- **[firecrawl/firecrawl-claude-plugin](https://github.com/firecrawl/firecrawl-claude-plugin)** - Claude Code plugin for web scraping and search
+- **[firecrawl/firecrawl-agent](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-agent)** - AI agent for autonomous web scraping and data extraction
+- **[firecrawl/firecrawl-browser](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-browser)** - Browser-based web scraping and interaction
+- **[firecrawl/firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl)** - Crawl websites and extract structured data
+- **[firecrawl/firecrawl-download](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-download)** - Download web content and files
+- **[firecrawl/firecrawl-map](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-map)** - Map website structure and sitemaps
+- **[firecrawl/firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape)** - Scrape web pages and extract content
+- **[firecrawl/firecrawl-search](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-search)** - Search the web and extract results
 
-### Skills by Neon 
-- **[neondatabase/using-neon](https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres)** - Best practices for Neon Serverless Postgres
+### Skills by Neon
+- **[neondatabase/neon-postgres](https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres)** - Best practices for Neon Serverless Postgres
+- **[neondatabase/claimable-postgres](https://github.com/neondatabase/agent-skills/tree/main/skills/claimable-postgres)** - Claimable Postgres database provisioning with Neon
+- **[neondatabase/neon-postgres-egress-optimizer](https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres-egress-optimizer)** - Optimize Neon Postgres egress and data transfer
 
-### Skills by Cloudflare Engineer 
-- **[dmmulroy/cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill/tree/main/skills/cloudflare)** - Cloudflare platform reference for Workers, Pages, storage, AI, and networking
 
 ### Skill by ClickHouse 
 - **[ClickHouse/agent-skills](https://github.com/ClickHouse/agent-skills)** - The official Agent Skills for [ClickHouse](https://clickhouse.com/). These skills help LLMs and agents to adopt best practices when working with ClickHouse.
@@ -289,18 +300,43 @@ Official Google Workspace CLI skills for managing Google Workspace services via 
 </details>
 
 <details>
+<summary><h3 style="display:inline">Skills by Expo Team</h3></summary>
+
+Official AI agent skills from the Expo team for building, deploying, and debugging Expo apps.
+
+- **[expo/building-native-ui](https://github.com/expo/skills/tree/main/plugins/expo/skills/building-native-ui)** - Build apps with Expo Router, styling, components, navigation, and animations
+- **[expo/expo-api-routes](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-api-routes)** - Create API routes in Expo Router with EAS Hosting
+- **[expo/expo-cicd-workflows](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-cicd-workflows)** - CI/CD workflows for Expo projects
+- **[expo/expo-deployment](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-deployment)** - Deploy Expo apps to production
+- **[expo/expo-dev-client](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-dev-client)** - Build and distribute Expo dev clients locally or via TestFlight
+- **[expo/expo-tailwind-setup](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-tailwind-setup)** - Set up Tailwind CSS v4 in Expo with NativeWind v5
+- **[expo/expo-ui-jetpack-compose](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-ui-jetpack-compose)** - Jetpack Compose UI components for Expo
+- **[expo/expo-ui-swift-ui](https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-ui-swift-ui)** - SwiftUI components for Expo
+- **[expo/native-data-fetching](https://github.com/expo/skills/tree/main/plugins/expo/skills/native-data-fetching)** - Network requests, API calls, caching, and offline support
+- **[expo/upgrading-expo](https://github.com/expo/skills/tree/main/plugins/expo/skills/upgrading-expo)** - Upgrade Expo SDK versions
+- **[expo/use-dom](https://github.com/expo/skills/tree/main/plugins/expo/skills/use-dom)** - Run web code in a webview on native using DOM components
+
+</details>
+
+<details>
 <summary><h3 style="display:inline">Skills by Hugging Face Team</h3></summary>
 
 Official AI agent skills from the Hugging Face team for ML workflows.
 
+- **[huggingface/hf-cli](https://github.com/huggingface/skills/tree/main/skills/hf-cli)** - HF CLI tool for Hub operations
 - **[huggingface/hugging-face-cli](https://github.com/huggingface/skills/tree/main/skills/hugging-face-cli)** - HF Hub CLI for models, datasets, repos, and compute jobs
+- **[huggingface/hugging-face-dataset-viewer](https://github.com/huggingface/skills/tree/main/skills/hugging-face-dataset-viewer)** - Browse and query HF datasets with the Dataset Viewer API
 - **[huggingface/hugging-face-datasets](https://github.com/huggingface/skills/tree/main/skills/hugging-face-datasets)** - Create and manage datasets with configs and SQL querying
 - **[huggingface/hugging-face-evaluation](https://github.com/huggingface/skills/tree/main/skills/hugging-face-evaluation)** - Model evaluation with vLLM/lighteval and eval tables
 - **[huggingface/hugging-face-jobs](https://github.com/huggingface/skills/tree/main/skills/hugging-face-jobs)** - Run compute jobs and Python scripts on HF infrastructure
 - **[huggingface/hugging-face-model-trainer](https://github.com/huggingface/skills/tree/main/skills/hugging-face-model-trainer)** - Train models with TRL: SFT, DPO, GRPO, GGUF conversion
+- **[huggingface/hugging-face-paper-pages](https://github.com/huggingface/skills/tree/main/skills/hugging-face-paper-pages)** - Create and manage paper pages on HF Hub
 - **[huggingface/hugging-face-paper-publisher](https://github.com/huggingface/skills/tree/main/skills/hugging-face-paper-publisher)** - Publish papers on HF Hub with model/dataset links
 - **[huggingface/hugging-face-tool-builder](https://github.com/huggingface/skills/tree/main/skills/hugging-face-tool-builder)** - Build reusable scripts for HF API operations
 - **[huggingface/hugging-face-trackio](https://github.com/huggingface/skills/tree/main/skills/hugging-face-trackio)** - Track ML experiments with real-time dashboards
+- **[huggingface/hugging-face-vision-trainer](https://github.com/huggingface/skills/tree/main/skills/hugging-face-vision-trainer)** - Train vision models on HF infrastructure
+- **[huggingface/huggingface-gradio](https://github.com/huggingface/skills/tree/main/skills/huggingface-gradio)** - Build Gradio apps and deploy to HF Spaces
+- **[huggingface/transformers.js](https://github.com/huggingface/skills/tree/main/skills/transformers.js)** - Run ML models in the browser with Transformers.js
 
 </details>
 
@@ -797,6 +833,54 @@ Official Web3 and trading skills from the Binance team. Includes crypto market d
 
 </details>
 
+<details>
+<summary><h3 style="display:inline">Skills by MiniMax Team</h3></summary>
+
+10 development and document generation skills from the MiniMax AI team. Covers frontend, fullstack, mobile, shader development, and document creation (PDF, DOCX, XLSX, PPTX) with MiniMax API integration.
+
+- **[MiniMax-AI/frontend-dev](https://github.com/MiniMax-AI/skills/tree/main/skills/frontend-dev)** - Full-stack frontend with cinematic animations, AI-generated media via MiniMax API, and generative art
+- **[MiniMax-AI/fullstack-dev](https://github.com/MiniMax-AI/skills/tree/main/skills/fullstack-dev)** - Backend architecture with REST API design, auth flows, real-time features, and database integration
+- **[MiniMax-AI/android-native-dev](https://github.com/MiniMax-AI/skills/tree/main/skills/android-native-dev)** - Android native development with Kotlin/Jetpack Compose, Material Design 3, and accessibility
+- **[MiniMax-AI/ios-application-dev](https://github.com/MiniMax-AI/skills/tree/main/skills/ios-application-dev)** - iOS development with UIKit, SnapKit, and SwiftUI covering navigation, Dark Mode, and HIG compliance
+- **[MiniMax-AI/shader-dev](https://github.com/MiniMax-AI/skills/tree/main/skills/shader-dev)** - GLSL shader techniques for ray marching, fluid simulation, particle systems, and procedural generation
+- **[MiniMax-AI/gif-sticker-maker](https://github.com/MiniMax-AI/skills/tree/main/skills/gif-sticker-maker)** - Convert photos into animated GIF stickers in Funko Pop / Pop Mart style via MiniMax API
+- **[MiniMax-AI/minimax-pdf](https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-pdf)** - Generate, fill, and reformat PDFs with a token-based design system and 15 cover styles
+- **[MiniMax-AI/pptx-generator](https://github.com/MiniMax-AI/skills/tree/main/skills/pptx-generator)** - Create and edit PowerPoint presentations from scratch with PptxGenJS
+- **[MiniMax-AI/minimax-xlsx](https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-xlsx)** - Create, read, analyze, and validate Excel/spreadsheet files with zero format loss
+- **[MiniMax-AI/minimax-docx](https://github.com/MiniMax-AI/skills/tree/main/skills/minimax-docx)** - Professional DOCX document creation and editing using OpenXML SDK
+
+</details>
+
+<details>
+<summary><h3 style="display:inline">Skills by DuckDB</h3></summary>
+
+Official DuckDB skills for data querying, file reading, and documentation search directly from Claude Code.
+
+- **[duckdb/attach-db](https://github.com/duckdb/duckdb-skills/tree/main/skills/attach-db)** - Attach a DuckDB database file for interactive querying with automatic schema exploration
+- **[duckdb/query](https://github.com/duckdb/duckdb-skills/tree/main/skills/query)** - Run SQL queries against attached databases or ad-hoc against files using Friendly SQL dialect
+- **[duckdb/read-file](https://github.com/duckdb/duckdb-skills/tree/main/skills/read-file)** - Read any data file (CSV, JSON, Parquet, Avro, Excel, spatial) locally or from remote storage
+- **[duckdb/duckdb-docs](https://github.com/duckdb/duckdb-skills/tree/main/skills/duckdb-docs)** - Search DuckDB and DuckLake documentation using full-text search over HTTPS
+- **[duckdb/read-memories](https://github.com/duckdb/duckdb-skills/tree/main/skills/read-memories)** - Search past Claude Code session logs to recover context from previous conversations
+- **[duckdb/install-duckdb](https://github.com/duckdb/duckdb-skills/tree/main/skills/install-duckdb)** - Install or update DuckDB CLI and extensions with version management
+
+</details>
+
+<details>
+<summary><h3 style="display:inline">Skills by GSAP (GreenSock)</h3></summary>
+
+Official GSAP animation skills covering the full GreenSock ecosystem — core API, timelines, ScrollTrigger, plugins, utilities, React integration, performance optimization, and framework support.
+
+- **[greensock/gsap-core](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-core)** - Core API with gsap.to(), from(), fromTo(), easing, duration, stagger, and defaults
+- **[greensock/gsap-timeline](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-timeline)** - Timelines with sequencing, position parameter, labels, nesting, and playback control
+- **[greensock/gsap-scrolltrigger](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-scrolltrigger)** - ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling
+- **[greensock/gsap-plugins](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-plugins)** - Plugins including ScrollToPlugin, Flip, Draggable, SplitText, SVG, and physics
+- **[greensock/gsap-utils](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-utils)** - Utility functions like clamp, mapRange, interpolate, snap, selector, and wrap
+- **[greensock/gsap-react](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-react)** - React integration with useGSAP hook, refs, gsap.context(), cleanup, and SSR
+- **[greensock/gsap-performance](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-performance)** - Performance tips for transforms, will-change, batching, and ScrollTrigger optimization
+- **[greensock/gsap-frameworks](https://github.com/greensock/gsap-skills/tree/main/skills/gsap-frameworks)** - Vue, Svelte, and other frameworks with lifecycle, scoping, and cleanup patterns
+
+</details>
+
 ### Community Skills
 
 <details>
@@ -858,6 +942,7 @@ Official Web3 and trading skills from the Binance team. Includes crypto market d
 - **[Rootly-AI-Labs/rootly-incident-responder](https://github.com/Rootly-AI-Labs/Rootly-MCP-server/blob/main/examples/skills/rootly-incident-responder.md)** - AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)
 - **[conorluddy/ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)** - Control iOS Simulator
 - **[ramzesenok/iOS-Accessibility-Audit-Skill](https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill)** - Audit iOS App against Accessibility norms
+- **[truongduy2611/app-store-preflight-skills](https://github.com/truongduy2611/app-store-preflight-skills)** - Scan iOS/macOS projects to catch common mistakes that lead to App Store rejection before submission
 - **[sanjay3290/postgres](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres)** - Execute safe read-only SQL queries against PostgreSQL databases
 - **[sanjay3290/deep-research](https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research)** - Autonomous multi-step research using Gemini Deep Research Agent
 - **[jthack/ffuf-claude-skill](https://github.com/jthack/ffuf_claude_skill)** - Web fuzzing with ffuf
@@ -907,6 +992,8 @@ Official Web3 and trading skills from the Binance team. Includes crypto market d
 - **[hamelsmu/validate-evaluator](https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator)** - Calibrate LLM judges against human labels
 - **[hamelsmu/evaluate-rag](https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag)** - Evaluate RAG retrieval and generation quality
 - **[hamelsmu/build-review-interface](https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/build-review-interface)** - Build annotation interfaces for reviewing LLM traces
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** - 17 dev workflow skills: PRD writing, TDD, codebase architecture, git guardrails, issue triage, refactoring plans, and more
+- **[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** - 753 cybersecurity skills across 38 domains: cloud security, pentesting, red teaming, DFIR, malware analysis, threat intel, and more (MITRE ATT&CK mapped)
 - **[wrsmith108/varlock-claude-skill](https://github.com/wrsmith108/varlock-claude-skill)** - Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits
 - **[Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes
 - **[NoizAI/skills](https://github.com/NoizAI/skills)** - Human-like TTS workflows with local/cloud APIs and app delivery
