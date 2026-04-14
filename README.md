@@ -709,7 +709,7 @@ Official Web3 and trading skills from the Binance team. Includes crypto market d
 <details>
 <summary><h3 style="display:inline">Skills by Apollo GraphQL</h3></summary>
 
-Official skills from the [Apollo GraphQL](https://github.com/apollographql/skills) team for building GraphQL clients, servers, federated supergraphs, and the Apollo Router.
+Official skills from the Apollo GraphQL team for building GraphQL clients, servers, federated supergraphs, and the Apollo Router.
 
 - **[apollographql/apollo-client](https://officialskills.sh/apollographql/skills/apollo-client)** - Build React applications with Apollo Client 4
 - **[apollographql/apollo-connectors](https://officialskills.sh/apollographql/skills/apollo-connectors)** - Integrate REST APIs into GraphQL supergraphs using Apollo Connectors
@@ -730,7 +730,7 @@ Official skills from the [Apollo GraphQL](https://github.com/apollographql/skill
 <details>
 <summary><h3 style="display:inline">Skills by Auth0</h3></summary>
 
-Official authentication and identity skills from the [Auth0](https://github.com/auth0/agent-skills) team. Covers SDKs for popular frameworks plus workflows for MFA, migration, and quickstart detection.
+Official authentication and identity skills from the Auth0 team. Covers SDKs for popular frameworks plus workflows for MFA, migration, and quickstart detection.
 
 - **[auth0/auth0-android](https://officialskills.sh/auth0/skills/auth0-android)** - Add authentication to native Android apps using the Auth0 SDK
 - **[auth0/auth0-angular](https://officialskills.sh/auth0/skills/auth0-angular)** - Add authentication to Angular apps using @auth0/auth0-angular
@@ -752,7 +752,7 @@ Official authentication and identity skills from the [Auth0](https://github.com/
 <details>
 <summary><h3 style="display:inline">Skills by Brave</h3></summary>
 
-Official skills from the [Brave](https://github.com/brave/brave-search-skills) team for accessing Brave Search APIs including web, images, videos, news, and local point-of-interest data.
+Official skills from the Brave team for accessing Brave Search APIs including web, images, videos, news, and local point-of-interest data.
 
 - **[brave/answers](https://officialskills.sh/brave/skills/answers)** - AI-generated answers grounded in live web search results
 - **[brave/bx](https://officialskills.sh/brave/skills/bx)** - CLI tool for web search built for AI agents
@@ -771,7 +771,7 @@ Official skills from the [Brave](https://github.com/brave/brave-search-skills) t
 <details>
 <summary><h3 style="display:inline">Skills by Browserbase</h3></summary>
 
-Official browser automation skills from the [Browserbase](https://github.com/browserbase/skills) team. Covers headless browsing, cookie sync, serverless functions, and adversarial UI testing.
+Official browser automation skills from the Browserbase team. Covers headless browsing, cookie sync, serverless functions, and adversarial UI testing.
 
 - **[browserbase/browser](https://officialskills.sh/browserbase/skills/browser)** - Automate web browser interactions through natural language CLI commands
 - **[browserbase/browserbase-cli](https://officialskills.sh/browserbase/skills/browserbase-cli)** - CLI wrapper around the Browserbase platform
@@ -786,7 +786,7 @@ Official browser automation skills from the [Browserbase](https://github.com/bro
 <details>
 <summary><h3 style="display:inline">Skills by CodeRabbit</h3></summary>
 
-Official AI code review skills from the [CodeRabbit](https://github.com/coderabbitai/skills) team.
+Official AI code review skills from the CodeRabbit team.
 
 - **[coderabbitai/autofix](https://officialskills.sh/coderabbitai/skills/autofix)** - Fetch unresolved CodeRabbit review comments from GitHub PRs and apply fixes
 - **[coderabbitai/code-review](https://officialskills.sh/coderabbitai/skills/code-review)** - Run AI-powered code reviews through the CodeRabbit CLI
@@ -796,7 +796,7 @@ Official AI code review skills from the [CodeRabbit](https://github.com/coderabb
 <details>
 <summary><h3 style="display:inline">Skills by Coinbase</h3></summary>
 
-Official wallet, payments, and trading skills from the [Coinbase](https://github.com/coinbase/agentic-wallet-skills) team. Covers USDC transfers, onchain queries, x402 paid APIs, and Base trading.
+Official wallet, payments, and trading skills from the Coinbase team. Covers USDC transfers, onchain queries, x402 paid APIs, and Base trading.
 
 - **[coinbase/authenticate-wallet](https://officialskills.sh/coinbase/skills/authenticate-wallet)** - Handle sign-in for the Coinbase payments wallet via email OTP
 - **[coinbase/fund](https://officialskills.sh/coinbase/skills/fund)** - Add USDC to a Coinbase-powered wallet through Coinbase Onramp
@@ -813,7 +813,7 @@ Official wallet, payments, and trading skills from the [Coinbase](https://github
 <details>
 <summary><h3 style="display:inline">Skills by Datadog Labs</h3></summary>
 
-Observability skills from [Datadog Labs](https://github.com/datadog-labs/agent-skills) for APM, logs, monitors, and LLM observability workflows powered by the pup CLI.
+Observability skills from Datadog Labs for APM, logs, monitors, and LLM observability workflows powered by the pup CLI.
 
 - **[datadog-labs/dd-apm](https://officialskills.sh/datadog-labs/skills/dd-apm)** - Query Datadog APM data directly from your editor
 - **[datadog-labs/dd-docs](https://officialskills.sh/datadog-labs/skills/dd-docs)** - Look up Datadog documentation via the LLM-optimized docs index
@@ -829,7 +829,7 @@ Observability skills from [Datadog Labs](https://github.com/datadog-labs/agent-s
 <details>
 <summary><h3 style="display:inline">Skills by Firebase</h3></summary>
 
-Official skills from the [Firebase](https://github.com/firebase/agent-skills) team for setup, auth, Firestore, hosting, Genkit AI SDKs, and security rule auditing.
+Official skills from the Firebase team for setup, auth, Firestore, hosting, Genkit AI SDKs, and security rule auditing.
 
 - **[firebase/developing-genkit-dart](https://officialskills.sh/firebase/skills/developing-genkit-dart)** - Build AI apps with the Genkit Dart SDK
 - **[firebase/developing-genkit-go](https://officialskills.sh/firebase/skills/developing-genkit-go)** - Build AI apps with the Genkit Go SDK
@@ -849,7 +849,7 @@ Official skills from the [Firebase](https://github.com/firebase/agent-skills) te
 <details>
 <summary><h3 style="display:inline">Skills by Flutter</h3></summary>
 
-Official skills from the [Flutter](https://github.com/flutter/skills) team covering layouts, state, navigation, native interop, platform setup, and testing for cross-platform Flutter apps.
+Official skills from the Flutter team covering layouts, state, navigation, native interop, platform setup, and testing for cross-platform Flutter apps.
 
 - **[flutter/flutter-adding-home-screen-widgets](https://officialskills.sh/flutter/skills/flutter-adding-home-screen-widgets)** - Add home screen widgets to Flutter apps on Android and iOS
 - **[flutter/flutter-animating-apps](https://officialskills.sh/flutter/skills/flutter-animating-apps)** - Implement animated effects, transitions, and motion
